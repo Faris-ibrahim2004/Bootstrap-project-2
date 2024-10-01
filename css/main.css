@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 ul {
   list-style: none;
 }
@@ -20,6 +23,9 @@ body {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
 }
 .txt-none {
   text-transform: none;
